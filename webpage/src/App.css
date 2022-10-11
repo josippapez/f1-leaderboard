@@ -1,14 +1,14 @@
-.adminfix td:nth-of-type(3){
+.adminfix td:nth-of-type(3) {
   width: 10%;
   padding-left: 10px;
   padding-right: 10px;
 }
-.adminfix td:nth-of-type(4){
+.adminfix td:nth-of-type(4) {
   width: 10%;
   padding-left: 10px;
   padding-right: 10px;
 }
-.adminfix td:nth-of-type(5){
+.adminfix td:nth-of-type(5) {
   width: 20%;
   padding-left: 10px;
   padding-right: 10px;
@@ -17,6 +17,15 @@
 .resultsarchive-wrapper.adminfix {
   width: 960px;
   margin: 0 auto;
+}
+
+.resultsarchive-wrapper {
+  background-color: #333333;
+}
+
+.ResultsArchiveTitle,
+.resultsarchive-content {
+  color: white !important;
 }
 
 button.setdriver {
@@ -49,9 +58,8 @@ button.red:disabled {
   background-color: lightpink;
 }
 
-
 .logo {
-  width:  50px;
+  width: 50px;
   margin: -14px;
 }
 
@@ -67,25 +75,49 @@ button.red:disabled {
   width: 25%;
 }
 
-
 .resultsarchive-table td:nth-child(6) {
   width: 15%;
 }
-
 
 .resultsarchive-table td {
   font-size: 2rem;
 }
 
-.resultsarchive-table tbody tr:nth-child(2n+1) {
-  background: #eee;
+.resultsarchive-table tbody tr td {
+  color: white !important;
 }
 
+.resultsarchive-table tbody tr:nth-child(2n + 1) {
+  background: #242424;
+}
 
 .resultsarchive-table tbody tr:nth-child(2n) {
-  background: #fff;
+  background: #424242;
 }
 
 body {
-  background-color: white;
+  background-color: #333333;
+}
+
+.top-bar {
+  display: flex;
+}
+
+.ResultsArchiveTitle {
+  width: auto !important;
+  margin-right: 50px;
+}
+
+.current-time-counter {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+#timer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
